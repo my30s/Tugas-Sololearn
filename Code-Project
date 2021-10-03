@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int days = scanner.nextInt();
+		
+		//your code goes here
+		int hour = 24;int minute = 60;int second = 60;
+		int seconds = hour * minute * second;
+		int result = days * seconds;
+		System.out.println(result);
+	}
+}
